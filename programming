@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+            body 
+            {
+                background-color: black;
+                color: lightgreen;
+            }
+        </style>
+        <title>
+            Adam Mathew Duke
+        </title>
+    </head>
+    <body>
+        <center>
+            <h1>Adam Mathew Duke</h1><hr>
+            <p>This is my corner of the internet to express myself and share my passions in life.</p><hr>
+            <p><a href="https://adam-mathew-duke.github.io/creative-sequence-player/" target="_blank">Creative Sequence Player</a></p>  
+            <p><a href="https://python-experiments-nk2w4jkbfgx9pjdcfwjec5.streamlit.app/" target="_blank">Oblique Strategy</a></p>
+            <p><a href="https://python-portfolio-ufl7cj8no2xqbq2h9utqug.streamlit.app/" target="_blank">Faruq Quotes</a></p>
+            <p><a href="https://godzilla-kaiju.streamlit.app/" target="_blank">Kaiju Dataframe 1.0</a></p>
+            <p><a href="https://adam-mathew-duke.github.io/index.html">Home</a></p>
+        </center>
+    </body>
+</html>
