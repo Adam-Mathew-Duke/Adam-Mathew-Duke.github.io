@@ -1,5 +1,6 @@
 /* Page settings */
-body{
+body
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,5 +8,38 @@ body{
     width: 100%;
     margin: 10px;
     background-color: #000;
-    color: #6366f1;
+    color: green;
 }
+a
+{
+    background-color: #000;
+    color: green;
+}
+
+  .link-circle {
+    fill: #323437;           /* Monkeytype dark gray background */
+    stroke: #e2b714;         /* Monkeytype yellow border */
+    stroke-width: 4px;
+    
+    /* Smooth transition for the hover animation */
+    transition: fill 0.3s ease, transform 0.3s ease;
+    transform-origin: center; 
+  }
+
+  /* When hovering over the link... */
+  a:hover .link-circle {
+    fill: #e2b714;           /* Circle flips to yellow */
+    transform: scale(1.10);  /* Grows perfectly from the center */
+  }
+
+  .mt-text {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    fill: #d1d0c5;           /* Monkeytype light gray/white text */
+    transition: fill 0.3s ease;
+  }
+
+  a:hover .mt-text {
+    fill: #ffffff;           /* Text brightens up on hover */
+  }
