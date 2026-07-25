@@ -56,35 +56,3 @@ a:hover .mt-text
 {
   fill: #ffffff;
 }
-
-.tooltip {
-  position: absolute;
-  
-  /* Position relative to card height/width */
-  top: 15%; /* Moves fluidly with card scaling instead of staying fixed at 18px */
-  left: 50%;
-  
-  /* Centers horizontally AND keeps the pop-up scale animation */
-  transform: translateX(-50%) scale(0.5);
-  transform-origin: center center;
-
-  z-index: 10;
-  background: rgba(15, 23, 42, 0.95);
-  color: #f3f4f6;
-  font-size: 11px;
-  font-weight: 500;
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  white-space: nowrap;
-  opacity: 0;
-  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  pointer-events: none;
-}
-
-/* Update hover state to include the horizontal offset */
-.card:hover .tooltip {
-  opacity: 1;
-  transform: translateX(-50%) scale(1);
-}
