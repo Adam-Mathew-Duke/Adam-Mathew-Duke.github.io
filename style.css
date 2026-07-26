@@ -71,3 +71,35 @@ a:hover .mt-text
 a{
   color:white;
 }
+
+.music-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-auto-rows: minmax(80px, auto);
+  gap: 1.5rem; /* gap between the music cards*/
+  padding: 1rem;
+  min-height: 100vh;
+  flex: 1;
+  background-color: black;
+}
+
+.music-card {
+  background: #411980;
+  border-radius: 2px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  max-height: 20vh;
+}
+
+.music-title {
+  background: yellow;
+  border-radius: 4px;
+  padding: 1rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  max-height: 20vh;
+}
+
