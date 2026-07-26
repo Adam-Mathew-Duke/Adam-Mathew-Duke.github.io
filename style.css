@@ -1,18 +1,17 @@
-body
-{
+body{
   background-color: black;
 }
 
-.card-container
-{
+.card-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   padding: 1rem;
+  min-height: 100vh;
+  flex: 1;
 }
 
-.card 
-{
+.card{
   background: black;
   border-radius: 8px;
   padding: 1.5rem;
@@ -21,15 +20,13 @@ body
   align-items: center;
 }
 
-.card svg 
-{
+.card svg{
   width: 100%;
   max-width: 200px;
   height: auto;
 }
 
-.link-circle 
-{
+.link-circle{
   fill: #323437;
   stroke: #e2b714;
   stroke-width: 4px;
@@ -37,14 +34,12 @@ body
   transform-origin: center;
 }
 
-a:hover .link-circle
-{
+a:hover .link-circle{
   fill: #e2b714;
   transform: scale(1.10);
 }
 
-.mt-text
-{
+.mt-text{
   font-family: sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -55,4 +50,24 @@ a:hover .link-circle
 a:hover .mt-text
 {
   fill: #ffffff;
+}
+
+.footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer a:not(:last-child)::after{
+  content: "|";
+  margin-left: 15px;
+  color: #888;
+}
+
+a{
+  color:white;
 }
