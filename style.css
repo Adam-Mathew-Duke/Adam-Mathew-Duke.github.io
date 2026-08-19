@@ -11,6 +11,18 @@ body{
   flex: 1;
 }
 
+.skatingStats {
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:lightpink;
+    display: grid;
+    grid-template-rows: "a";
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
 .card {
     display: inline-block;
     text-align: center;
